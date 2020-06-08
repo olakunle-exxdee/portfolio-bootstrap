@@ -1,0 +1,187 @@
+:root {
+  --primary-color: #854fee;
+  --font-size: 2rem;
+  --color: #4458dc;
+  --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+.fontz {
+  font-size: var(--font-size);
+  text-decoration: none;
+}
+.linear-gradient {
+  background: var(--gradient-color);
+  min-height: 100vh;
+  max-width: 100%;
+}
+.main {
+  padding: 0 2rem;
+}
+.bg-gr {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.bg-co {
+  background: var(--gradient-color);
+}
+.color1 {
+  color: var(--primary-color);
+}
+.color2 {
+  color: var(--color);
+}
+.navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.weight {
+  font-weight: bolder;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.weights {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.buttons {
+  background: var(--gradient-color);
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: background 5s ease-in-out;
+  border: 2px solid #4458dc;
+}
+.buttons:hover {
+  background: transparent;
+}
+
+.button {
+  border: 2px solid #4458dc;
+  background: transparent;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.button:hover {
+  background: var(--gradient-color);
+  color: whitesmoke;
+  transition: background 5s ease-in-out;
+}
+
+.sign-up {
+  background: var(--gradient-color);
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-align: center;
+  transition: background 7s ease-in-out;
+}
+.sign-up:hover {
+  background: transparent;
+}
+.sign-in:hover {
+  background: var(--gradient-color);
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-align: center;
+  transition: background 7s ease-in-out;
+  border: 2px solid transparent;
+}
+.sign-in {
+  background: transparent;
+  border: 2px solid #4458dc;
+}
+.box-shadow {
+  box-shadow: 0px 3px 13px -1px rgba(125, 125, 125, 0.4);
+  -webkit-box-shadow: 0px 3px 13px -1px rgba(125, 125, 125, 0.4);
+  -moz-box-shadow: 0px 3px 13px -1px rgba(125, 125, 125, 0.4);
+}
+.services {
+  background: #f4f6fd;
+  transform: scale(1, 1);
+  transition: transform 5s ease-in;
+}
+.services:hover {
+  background: #fafafb;
+  box-shadow: 0px 3px 13px -1px rgba(125, 125, 125, 0.9);
+  transform: scale(1.1, 1.1);
+}
+.fa-facebook {
+  font-size: 25px;
+  transform: scale(1, 1);
+  opacity: 0.3;
+  transition: transform 6s ease;
+  cursor: pointer;
+}
+.fa-facebook:hover {
+  transform: scale(1.5, 1.5);
+  color: #4458dc;
+  opacity: 1;
+}
+.fa-twitter {
+  font-size: 25px;
+  transform: scale(1, 1);
+  opacity: 0.3;
+  transition: transform 6s ease;
+  cursor: pointer;
+}
+.fa-twitter:hover {
+  font-size: 25px;
+  transform: scale(1.1, 1.1);
+  color: #00acee;
+  opacity: 1;
+}
+.fa-instagram {
+  font-size: 25px;
+  transform: scale(1, 1);
+  opacity: 0.3;
+  transition: transform 6s ease;
+  cursor: pointer;
+}
+.fa-instagram:hover {
+  font-size: 25px;
+  transform: scale(1.1, 1.1);
+  color: #4458dc;
+  opacity: 1;
+}
+.fa-youtube {
+  font-size: 25px;
+  transform: scale(1, 1);
+  opacity: 0.3;
+  transition: transform 6s ease;
+  cursor: pointer;
+}
+.fa-youtube:hover {
+  font-size: 25px;
+  transform: scale(1.1, 1.1);
+  color: #ff0000;
+  opacity: 1;
+}
+.submit {
+  background: blue;
+  color: whitesmoke;
+  opacity: 1;
+  transition: background 5s ease-in;
+}
+.submit:hover {
+  background: blue;
+  opacity: 0.5;
+  color: whitesmoke;
+}
